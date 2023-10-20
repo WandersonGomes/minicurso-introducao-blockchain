@@ -8,5 +8,5 @@ Artigo Traduzido Bitcoin: <a href="https://cointimes.com.br/whitepaper-do-bitcoi
 
 ## FERRAMENTAS USADAS
 NodeJS: <a href="https://nodejs.org/en">Site</a><br>
-Ganache: <a href="https://trufflesuite.com/ganache/"> Site</a><br>
+Crypto-JS: <a href="https://www.npmjs.com/package/crypto-js">Site</a><br>
 Solidity: <a href="https://soliditylang.org/">Site</a><br>
