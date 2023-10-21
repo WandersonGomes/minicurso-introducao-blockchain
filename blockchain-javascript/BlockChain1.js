@@ -1,14 +1,14 @@
 /*
 Código adaptado de Simply Explained
 */
-const Bloco = require('./Bloco');
+const Bloco = require('./Bloco1');
 
 class BlockChain {
     constructor() {
-        this.cadeia_blocos = [this.criarBlocoGenesi()];
+        this.cadeia_blocos = [this.criarBlocoGenesis()];
     }
 
-    criarBlocoGenesi() {
+    criarBlocoGenesis() {
         return new Bloco(0, new Date().getTime(), "Genesis block", "0");
     }
 
