@@ -1,5 +1,31 @@
 {
+  "name": "minicurso-introducao-blockchain",
+  "version": "1.0.0",
+  "description": "Implementa uma blockchain simples usando javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WandersonGomes/minicurso-introducao-blockchain.git"
+  },
+  "keywords": [
+    "blockchain",
+    "javascript",
+    "minicurso"
+  ],
+  "author": "Wanderson Gomes da Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WandersonGomes/minicurso-introducao-blockchain/issues"
+  },
+  "homepage": "https://github.com/WandersonGomes/minicurso-introducao-blockchain#readme",
   "dependencies": {
-    "crypto-js": "^4.1.1"
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "debug": "^4.3.4",
+    "elliptic": "^6.5.4"
   }
 }
